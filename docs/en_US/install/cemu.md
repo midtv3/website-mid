@@ -1,16 +1,16 @@
-<div class="tip green">This Guide may be missing some info or incomplete.</div>
+<div class="tip green">This Guide may be missing some info or incomplete. Chances are, Cemu wont work with Peamo anyways.</div>
 
 # Cemu
 
 <div class='tip'>
-	In Order to use Peamo on Cemu, you need to have Pretendo already installed on your Wii U. For Wii U please follow the <a href='/docs/install/wiiu'>Wii U Guide</a>
+	In Order to use Peamo on Cemu, you need to have Peamo already installed on your Wii U. For Wii U please follow the <a href='/docs/install/wiiu'>Wii U Guide</a>
 </div>
 
 ## Download
 
 <div class="tip red">
 	<strong>Note:</strong>
-	Only experimental builds of Cemu 2.0 are supported. At this time Cemu does not have a stable release of Cemu 2.0 which supports Pretendo
+	Only experimental builds of Cemu 2.0 are supported. At this time Cemu does not have a stable release of Cemu 2.0 which supports Peamo
 </div>
 
 Cemu 2.0 has official built-in support for Pretendo as of October 10, 2022. Head to the Cemu GitHub [releases](https://github.com/cemu-project/Cemu/releases) page and download the latest Cemu experimental release (tagged as `Pre-release`). Only `Cemu 2.0-5 (Experimental)` and above is supported at the moment. Additionally you may build Cemu from source using the provided [build instructions](https://github.com/cemu-project/Cemu/blob/main/BUILD.md)
