@@ -4,7 +4,7 @@
 	ℹ️ This guide assumes that you have a <b>Homebrewed System</b>, and have already connected to Peamo If you have not yet set up your Peamo Network ID, follow this <a href="/docs/install" target="_blank">guide</a> to get started.
 </div>
 
-Peamaposition is the Peamo Network replacement for the now defunct Miiverse service
+Netoposition is the Peamo Network replacement for the now defunct Miiverse service
 
 ## Select your console
 
