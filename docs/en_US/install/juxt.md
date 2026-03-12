@@ -1,4 +1,4 @@
-# Installing Juxtaposition
+# Installing Netoposition
 
 <div class="tip">
 	ℹ️ This guide assumes that you have a <b>Homebrewed System</b>, and have already connected to Peamo If you have not yet set up your Peamo Network ID, follow this <a href="/docs/install" target="_blank">guide</a> to get started.
