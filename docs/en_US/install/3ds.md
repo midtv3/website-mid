@@ -27,34 +27,13 @@ The following steps are required for you to connect to the Pretendo Network:
 
 ## Downloading Nimbus
 
-<div class="tip">
-	ℹ️ Nimbus is also available on <a href="https://db.universal-team.net/3ds/nimbus" target="_blank">Universal-Updater</a>. If you do not have Universal-Updater, you may follow this <a href="https://universal-team.net/projects/universal-updater.html" target="_blank">guide</a>. You may download the required files from there, rather than GitHub, or install/update the app directly from your console.
-	<br>
-	<br>
-	ℹ️ If installed directly from your console for the first time, you will still be required to install the associated IPS patches from GitHub. Once installed, updates may be managed purely from Universal-Updater
-</div>
-
 Before starting, power off your console and insert its SD card into your computer.
 
-Once inserted, download the latest [Nimbus release](https://github.com/PretendoNetwork/Nimbus/releases/latest).
+Once inserted, download the latest [Nimbus release (CIA)](https://peamo-network.ixchats.com/download/wiiu/nimbus.cia), or [Nimbus Release (3DSX)](https://peamo-network.ixchats.com/download/wiiu/nimbus.3dsx).
 
-Nimbus is available as both a 3DSX app and an installable CIA. The releases page offers downloads for both. Select the version you would like to use, or select the `combined.[version].zip` archive to use both.
+Nimbus is available as both a 3DSX app and an installable CIA. The releases page offers downloads for both. Select the version you would like to use.
 
-<img src="/assets/images/docs/install/3ds/zip-highlight.webp" alt="Screenshot of a GitHub release page with the file combined.[version].zip highlighted" width=100% height=auto/>
-
-Extract the contents of the zip archive to the root of your SD card. If you are asked to merge or overwrite files, accept the changes.
-
-Ensure your SD card has all the following files
-
-- `SD:/luma/titles/000400300000BC02/code.ips` (Miiverse, JPN)
-- `SD:/luma/titles/000400300000BD02/code.ips` (Miiverse, USA)
-- `SD:/luma/titles/000400300000BE02/code.ips` (Miiverse, EUR)
-- `SD:/luma/sysmodules/0004013000002F02.ips` (SSL)
-- `SD:/luma/sysmodules/0004013000003202.ips` (FRD/Friends)
-- `SD:/luma/sysmodules/0004013000003802.ips` (ACT/NNID)
-- `SD:/3ds/juxt-prod.pem` (Juxtaposition certificate)
-
-If not installed through Universal-Updater, ensure at least one of the following also exists
+Ensure the CIA or 3dsx is on the SD card, and if using the 3dsx, it is in the 3DS folder.
 
 - `SD:/cias/nimbus.cia`
 - `SD:/3ds/nimbus.3dsx`
@@ -79,10 +58,10 @@ Press `START` to save and continue with these changes.
 ## Installing Nimbus to HOME Menu
 
 <div class="tip">
-ℹ️ <b>Skip this step if you downloaded the 3DSX only zip file.</b>
+ℹ️ <b>Skip this step if you downloaded the 3DSX.</b>
 </div>
 
-If you downloaded the combined or cia archives, you can install Nimbus to the HOME Menu for quick and easy access.
+If you downloaded the CIA archive, you can install Nimbus to the HOME Menu for quick and easy access.
 
 Open FBI. If you do not have FBI, download the latest release from [GitHub](https://github.com/lifehackerhansol/FBI/releases/latest). Select `SD`, then `cias`. Find and select `nimbus.cia`. Select either `Install CIA` or `Install and delete CIA`.
 
@@ -98,7 +77,7 @@ Your selection persists between reboots.
 
 The 3DS does not rely on NNIDs for the vast majority of it's game servers. Because of this, using a PNID is also not required for most games<sup><a>[[1]](#footnote-1)</a></sup>.
 
-Setting up a PNID on the 3DS is the same as setting up a NNID. You may either create the PNID on your console, or register from an account [on our website](/account/register) and link it to your console once you're ready.
+Setting up a PNID on the 3DS is the same as setting up a NNID. You may either create the PNID on your console, or register for an account through our website (eventually) and link it to your console once you're ready.
 
 It is recommended to register the PNID on your device at this time, as registering on the website does not currently allow you to change your user data.
 
@@ -127,7 +106,7 @@ You may have thought to yourself; _"2nd local account? What's that? I thought th
 2. Back up your badges at the folder on your SD Card `SD:Nintendo 3DS/ID0/ID1/extdata/00000000/000014d1`.
 3. Download [Simple Badge Injector](https://github.com/AntiMach/simple-badge-injector/releases/latest).
 4. Insert your SD Card into your console.
-5. Use Nimbus to switch to Pretendo.
+5. Use Nimbus to switch to Peamo.
 6. Open Simple Badge Injector and make a note of the "Nintendo Network ID" value.
 7. Still inside SBI, choose the option to dump your badge data files.
 8. Turn off your 3DS and remove the SD card. Insert your SD card into your PC.
@@ -141,4 +120,4 @@ You may have thought to yourself; _"2nd local account? What's that? I thought th
 
 All badges _placed_ on the home menu will be deleted, and you have to re-add them in the order you have had them before.
 
-If you encounter any errors, restore your backed up badge data through SBI. Injecting badges while using Pretendo Network will make them disappear when swapping back to Nintendo Network, and vice versa.
+If you encounter any errors, restore your backed up badge data through SBI. Injecting badges while using Peamo Network will make them disappear when swapping back to Nintendo Network, and vice versa.
